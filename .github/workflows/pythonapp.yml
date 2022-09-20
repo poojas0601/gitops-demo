@@ -15,4 +15,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build
       run: |
+      
         docker image build -t dab8106/pyflask:latest .
